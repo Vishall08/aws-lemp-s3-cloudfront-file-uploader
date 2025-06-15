@@ -40,7 +40,7 @@ This project demonstrates a full-stack file upload system hosted on an EC2 insta
    sudo yum install nginx php php-mysqlnd mariadb105-server
    sudo service nginx start
    sudo service php-fpm start
-``
+   
 2. Create a folder for uploads:
 
 mkdir /usr/share/nginx/html/uploads
