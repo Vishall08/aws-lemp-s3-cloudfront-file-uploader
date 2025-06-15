@@ -49,7 +49,7 @@ chmod 777 uploads/
 3. Set up Amazon S3 bucket with ACL + public access.
 
 4. Create Amazon RDS (MySQL) DB & table:
-5. 
+   
 CREATE DATABASE facebook;
 USE facebook;
 CREATE TABLE posts (
