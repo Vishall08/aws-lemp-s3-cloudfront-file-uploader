@@ -60,11 +60,12 @@ CREATE TABLE posts (
 );
 
 5. Install AWS SDK using Composer:
-
+```bash
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 composer require aws/aws-sdk-php
 
+```
 6. Configure upload.php with:
 Your bucket name
 RDS endpoint + credentials
