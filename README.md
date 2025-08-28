@@ -24,13 +24,13 @@ This project demonstrates a full-stack file upload system hosted on an EC2 insta
 - **Web Server**: Nginx
 
 ## 📁 Project Structure
-
+```
 ├── file.html # Upload form
 ├── upload.php # Handles upload logic to S3 + DB
 ├── gallery.php # Image gallery with CF links
 ├── delete.php # Delete from S3 + RDS
 └── composer.json # AWS SDK dependency
-
+```
 
 
 ## ⚙️ Setup Instructions
